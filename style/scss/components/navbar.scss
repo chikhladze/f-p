@@ -1,0 +1,67 @@
+.navbar {
+    width: 16%;
+    max-width: 16.666667%;
+    min-width: 250px;
+    background-color: #18181c;
+    height: 100vh;
+    position: fixed;
+    .logo_box {
+        text-align: center;
+        padding: 25px 10px;
+        font-size: 25px;
+        color: #9c9ca9;
+        a {
+            font-family: 'BPG Nino Elite Exp Caps';
+        }
+    }
+    .nav {
+        margin-top: 50px;
+        ul {
+            li {
+                &.active {
+                    a {
+                        background-color: #99896e;
+                    }
+                }
+                :hover {
+                    background-color: #99896e;
+                }
+                a {
+                    display: inline-block;
+                    font-size: 20px;
+                    margin-top: 2px;
+                    padding: 12px 25px 12px 50px;
+                    color: #ffffff;
+                    transition: all 0.4s ease-in-out;
+                }
+                &.gallery {
+                    ul {
+                        li {
+                            &.active {
+                                a {
+                                    background-color: #99896e;
+                                }
+                            }
+                            background-color: #18181c;
+                            :hover {
+                                background-color: #99896e;
+                            }
+                            a {
+                                font-size: 18px;
+                                margin-left: 30px;
+                                background-color: #18181c;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.afternavbar {
+    padding-left: 16%;
+}
+.history {
+    display:flex;
+}
